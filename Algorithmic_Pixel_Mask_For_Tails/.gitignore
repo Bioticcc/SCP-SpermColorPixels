@@ -1,0 +1,20 @@
+# Generated review outputs. Ward source TIFFs under Raw_Ward_Data are
+# intentionally trackable for the Phase 1 annotation workflow.
+outputs/
+
+# Ignore macOS archive sidecars inside the Ward source export.
+Raw_Ward_Data/**/__MACOSX/
+Raw_Ward_Data/**/._*
+
+# Gold annotation derived artifacts and safety copies. Canonical JSON under
+# annotations/*/json/ is intentionally not ignored.
+annotations/*/backups/
+annotations/*/conflicts/
+annotations/*/exports/
+annotations/*/previews/
+annotations/*/rasters/
+annotations/*/orientation_maps/
+
+# Local Python noise.
+__pycache__/
+*.py[cod]

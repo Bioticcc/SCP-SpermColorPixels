@@ -1,0 +1,46 @@
+{
+  "annotation_status": "in_progress",
+  "annotator": "",
+  "created_at": "2026-07-13T21:45:37Z",
+  "crossings": [],
+  "dataset_id": "ward_gold_v1",
+  "height": 1200,
+  "image_id": "Sperm_100x_Raw_Photos__Sperm_100x_Raw_Photos__Prssly_KO_Exemplary_A_TIF",
+  "magnification": "100x",
+  "notes": "",
+  "reviewer": "",
+  "schema_version": "1.0.0",
+  "source_path": "Raw_Ward_Data/Sperm 100x Raw Photos/Sperm 100x Raw Photos/Prssly KO Exemplary A.TIF",
+  "source_sha256": "e423b7832d5e7f491b08ff28df0a0c9617ff058b44694d69a9d825aa279a0f08",
+  "sperm_instances": [
+    {
+      "boundary_sides": [],
+      "certainty": "low",
+      "crossing_ids": [],
+      "distal_endpoint": null,
+      "distal_endpoint_visible": true,
+      "head": {
+        "angle_degrees": 0.0,
+        "axes": [
+          72.77591973244148,
+          58.50613154960982
+        ],
+        "center": [
+          155.46934225195068,
+          443.53177257525067
+        ],
+        "polygon": [],
+        "type": "ellipse"
+      },
+      "head_visibility": "full",
+      "instance_id": "sperm_001",
+      "instance_status": "uncertain",
+      "neck_point": null,
+      "notes": "",
+      "tail_centerline": [],
+      "tail_visibility": "uncertain"
+    }
+  ],
+  "updated_at": "2026-07-13T21:47:07Z",
+  "width": 1600
+}
