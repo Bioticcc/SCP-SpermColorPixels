@@ -1,0 +1,45 @@
+{
+  "schema_version": "scp.frozen-baseline.v1",
+  "baseline_id": "path_v2_r0_2026_09_07",
+  "stage": "R0",
+  "prediction_root": "Algorithmic_Pixel_Mask_For_Tails/outputs/experiments/r0_baseline_2026_09_07/predictions",
+  "reviewed_viewer": "Algorithmic_Pixel_Mask_For_Tails/outputs/experiments/r0_baseline_2026_09_07/review/index.html",
+  "config_snapshot": "Algorithmic_Pixel_Mask_For_Tails/outputs/experiments/r0_baseline_2026_09_07/config.json",
+  "input_manifest_sha256": "a0b172dc18e0a5c4993c1868de66a04af2866c261f8ef981cdd4d3514c350ea7",
+  "prediction_provenance_sha256": "959fb3d620f31c3e4817fadd0037ed09ec582038416925be46421a60ab29667d",
+  "predictor_sha256": "cd10122dba110b7cffa55e2e72dadb96f66b6e2d6f9e884d40a5bf6f3a65ac51",
+  "processed_images": 24,
+  "totals": {
+    "tail_components": 393,
+    "head_components": 325,
+    "overlap_components": 180,
+    "tail_components_with_head_match": 141,
+    "head_connected_tail_components": 19,
+    "individual_sperm_crops": 19,
+    "crop_candidates": 209,
+    "accepted_crop_candidates": 19,
+    "rejected_crop_candidates": 44,
+    "ambiguous_crop_candidates": 146,
+    "duplicate_rejected_crop_candidates": 0,
+    "tail_duplicate_ambiguous_candidates": 0,
+    "accepted_head_reuse_count": 0,
+    "accepted_tail_reuse_count": 0,
+    "split_tail_components": 51,
+    "ambiguous_tail_components": 10,
+    "rejected_tail_head_assignments": 103,
+    "candidate_diagnostics_written": 0
+  },
+  "verification": {
+    "existing_and_added_tests_passed": 57,
+    "full_run_completed": true,
+    "final_integrity_passed": true,
+    "matching_saved_run": "outputs/ablation_2026_07_03_hybrid",
+    "structural_prediction_match": true,
+    "historical_canonical_match": false,
+    "browser_interaction_verified": false
+  },
+  "limitations": [
+    "Constructed geometry and structural regression evidence; no real-image accuracy claim.",
+    "Historical canonical path-v2 predates current code; see R0_IMPLEMENTATION_REPORT.md."
+  ]
+}

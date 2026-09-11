@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "baseline_id": "path_v2_r0_2026_09_07",
+  "input_root": "Algorithmic_Pixel_Mask_For_Tails/Raw_Ward_Data",
+  "reference_root": "Algorithmic_Pixel_Mask_For_Tails/outputs/updated_outputs_path_v2",
+  "demo_manifest": "Algorithmic_Pixel_Mask_For_Tails/experiments/demo_manifest.json",
+  "expected_image_count": 24,
+  "fixture_seed": 0,
+  "arguments": {
+    "path_v2": true,
+    "path_mode": "hybrid",
+    "normalization": "raw",
+    "acceptance_profile": "conservative",
+    "diagnostics": false,
+    "diagnostic_limit": null,
+    "tail_debug_overlays": false,
+    "tail_debug_limit": null,
+    "record_ablation_scores": false,
+    "path_fast_isolated": true,
+    "mode": "high-recall",
+    "save_intermediates": true,
+    "overwrite": false,
+    "limit": null,
+    "min_component_area": null,
+    "max_head_distance": 70.0,
+    "head_contact_radius": 8.0,
+    "crop_padding": 24
+  }
+}

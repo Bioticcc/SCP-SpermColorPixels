@@ -1,0 +1,12 @@
+{
+  "schema_version": "scp.r1.config.v1",
+  "stage": "R1",
+  "baseline_run": "Algorithmic_Pixel_Mask_For_Tails/outputs/experiments/r0_baseline_2026_09_07",
+  "k": 5,
+  "diagnostic_k": 10,
+  "max_expansions": 20000,
+  "fixture_seed": 0,
+  "head_contact_radius": 8.0,
+  "centerline_tolerance_px": 2.0,
+  "expected_image_count": 24
+}

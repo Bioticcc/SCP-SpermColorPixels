@@ -1,0 +1,16 @@
+{
+  "schema_version": "scp.r1.release.v1",
+  "stage": "R1",
+  "run_root": "Algorithmic_Pixel_Mask_For_Tails/outputs/experiments/r1_routes_2026_09_09_verified",
+  "viewer": "Algorithmic_Pixel_Mask_For_Tails/outputs/experiments/r1_routes_2026_09_09_verified/index.html",
+  "audit_sha256": "fcab7507d18f9c1db0d1c749f15a3208a109de3ceac9ccb9cc899532ed92cdd8",
+  "provenance_sha256": "881aad211c983c16e2665f7c305370f993dab8441b15cc51ee26afc0656af62f",
+  "processed_images": 24,
+  "baseline_candidates_preserved": 209,
+  "nonnull_k5_alternatives": 977,
+  "limited_searches": 5,
+  "tests_passed": 96,
+  "report": "R1_IMPLEMENTATION_REPORT.md",
+  "real_image_accuracy_measured": false,
+  "browser_interaction_verified": false
+}

@@ -1,0 +1,17 @@
+{
+  "audit_sha256": "99274179a11f083db0f506c07c2f4857c140f2f93949b140c8e4a18e33db8389",
+  "browser_interaction_verified": false,
+  "changed_from_unary": 21,
+  "head_identities": 183,
+  "hypotheses": 1158,
+  "ordinary_endpoint_conflicts": 0,
+  "processed_images": 24,
+  "provenance_sha256": "ec7a79e984d7ba5cd6054d4fe29bad97ce734e37ca72da8b0fe663ee439f5d2b",
+  "real_image_accuracy_measured": false,
+  "report": "R2_IMPLEMENTATION_REPORT.md",
+  "run_root": "Algorithmic_Pixel_Mask_For_Tails/outputs/experiments/r2_joint_2026_09_09_reviewed",
+  "schema_version": "scp.r2.release.v1",
+  "stage": "R2",
+  "tests_passed": 132,
+  "viewer": "Algorithmic_Pixel_Mask_For_Tails/outputs/experiments/r2_joint_2026_09_09_reviewed/index.html"
+}

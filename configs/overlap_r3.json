@@ -1,0 +1,12 @@
+{
+  "schema_version": "scp.r3.config.v1",
+  "stage": "R3",
+  "r2_manifest": "Algorithmic_Pixel_Mask_For_Tails/experiments/r2_manifest.json",
+  "expected_image_count": 24,
+  "fixture_seed": 0,
+  "reconstruction": {
+    "min_radius_px": 0.5,
+    "crossing_exclusion_px": 2,
+    "tie_epsilon": 1e-9
+  }
+}

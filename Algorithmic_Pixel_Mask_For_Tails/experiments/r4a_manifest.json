@@ -1,0 +1,23 @@
+{
+  "schema_version": "scp.r4a.release.v1",
+  "stage": "R4a",
+  "run_root": "Algorithmic_Pixel_Mask_For_Tails/outputs/experiments/r4a_attachments_2026_09_09_complete",
+  "viewer": "Algorithmic_Pixel_Mask_For_Tails/outputs/experiments/r4a_attachments_2026_09_09_complete/index.html",
+  "report": "R4A_IMPLEMENTATION_REPORT.md",
+  "audit_sha256": "bbef8fa20707a85af4e639ac5f764eed775be9d8ce0bc5e4cf5a8e35ec21a314",
+  "provenance_sha256": "122e1df11144dff1319c523fe7b69f1bc43675611537f69b42bc0707cb7cf101",
+  "auditor_source_sha256": "325b438e3d7825fb237f50a86d299db32bcb6c3fcb7d5e5cd1ad88b014b67bc8",
+  "tests_passed": 201,
+  "javascript_pages_passed": 25,
+  "browser_interaction_verified": false,
+  "real_image_accuracy_measured": false,
+  "invocation_wall_seconds": 51.417479784000534,
+  "extension_limited_searches": 4,
+  "remaining_missing_route_observations": 8,
+  "images": 24,
+  "added_routes": 60,
+  "preserved_route_records_including_null": 1186,
+  "changed_heads": 12,
+  "local_links": 112,
+  "null_choices": 17
+}
