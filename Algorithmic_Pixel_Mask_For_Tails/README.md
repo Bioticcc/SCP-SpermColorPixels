@@ -7,6 +7,16 @@ This workspace is intentionally separate from the older YOLO/NMA workflow. SCP
 uses deterministic color/pixel masking and image geometry, not model inference,
 as the main crop-generation path.
 
+The current annotation-optional development track is documented in
+[`experiments/README.md`](experiments/README.md). Its R0 command reproduces the
+baseline in a fresh output directory and builds a fixed image comparison and
+synthetic geometry benchmark without requiring new annotations.
+
+R1 now provides a separate experimental graph/search command and an all-image
+route comparison. See [the R1 implementation report](../R1_IMPLEMENTATION_REPORT.md)
+for verification, examples, and remaining ranking/evidence limitations. Joint
+multi-head selection and new instance-mask reconstruction are still pending.
+
 ## Data
 
 `Raw_Ward_Data/` contains the higher-quality RGB Ward TIFF images. The script
@@ -293,7 +303,20 @@ Ambiguous candidates are not necessarily bad detections. They are cases where
 the current SCP evidence is not strong enough to trust the crop as a clean
 single full sperm.
 
+R4a separately adds inspectable attachment-continuation alternatives on the
+same frozen graphs. See [the R4a report](../R4A_IMPLEMENTATION_REPORT.md) and
+[all-image path viewer](outputs/experiments/r4a_attachments_2026_09_09_complete/index.html).
+R3 masks still represent frozen R2 selections; R4a does not overwrite them.
+
 ## Supporting Methods
+
+The annotation-optional experiment includes R2 joint assignment over frozen
+R1 routes and R3 conditional instance-mask reconstruction. See the
+[R3 reconstruction report](../R3_IMPLEMENTATION_REPORT.md) and
+[all-image mask viewer](outputs/experiments/r3_masks_2026_09_09_release/index.html). It preserves the baseline CLI and statuses. Read the
+[R2 result and limitation report](../R2_IMPLEMENTATION_REPORT.md) before
+interpreting its proposals, and use the [experiment commands](experiments/README.md)
+to build the local all-image comparison.
 
 YOLOv8, NMA, and manual labels remain useful, but they are supporting resources:
 

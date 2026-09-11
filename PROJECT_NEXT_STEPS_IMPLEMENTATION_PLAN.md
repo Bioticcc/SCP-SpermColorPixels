@@ -7,6 +7,19 @@
 **Source analysis:** `PROJECT_ANALYSIS_2026-07-13.md`
 **Intended use:** Execute one work package at a time with Codex. Do not provide the entire plan to an implementation agent as one undifferentiated task.
 
+**Active execution update — September 7, 2026:** The user has directed that new
+lab images and human annotations be treated as optional, because their arrival
+is uncertain and demonstrable algorithm progress is needed first. Follow
+[`ANNOTATION_OPTIONAL_EXECUTION_PLAN_2026-09-07.md`](ANNOTATION_OPTIONAL_EXECUTION_PLAN_2026-09-07.md)
+for the current R0–R6 development sequence. It supersedes the gold-annotation
+prerequisites and execution order below for those work packages. Use synthetic
+geometry tests, existing-image regressions, and visual demonstrations as the
+development gates. Preserve the gold-data/evaluator specifications below for
+optional future validation; their accuracy criteria remain unverified until
+appropriate labels exist. Continue to implement only the explicitly requested
+bounded work package, with SCP as the primary method and no default model
+training.
+
 ---
 
 ## Document Purpose

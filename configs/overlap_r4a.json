@@ -1,0 +1,13 @@
+{
+  "schema_version": "scp.r4a.config.v1",
+  "stage": "R4a",
+  "r3_manifest": "Algorithmic_Pixel_Mask_For_Tails/experiments/r3_manifest.json",
+  "expected_image_count": 24,
+  "fixture_seed": 0,
+  "additional_k": 5,
+  "search_max_expansions": 20000,
+  "solver_max_expansions": 100000,
+  "null_cost": 1.5,
+  "partial_cost": 0.85,
+  "coverage_weight": 1.0
+}

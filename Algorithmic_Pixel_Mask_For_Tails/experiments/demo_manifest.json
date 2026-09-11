@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "selection_stage": "R0, before new resolver development",
+  "purpose": "Fixed qualitative panel; labels below describe selection reasons, not gold instance truth.",
+  "images": [
+    {
+      "relative_image": "Sperm 100x Raw Photos/Sperm 100x Raw Photos/Prssly KO Exemplary A.TIF",
+      "reason": "100x baseline-accepted control candidate plus faint/adjacent structures",
+      "magnification": "100x"
+    },
+    {
+      "relative_image": "Sperm 100x Raw Photos/Sperm 100x Raw Photos/Prssly KO Exemplary B.TIF",
+      "reason": "100x parallel contacts and nearby heads; inspected in the investigation",
+      "magnification": "100x"
+    },
+    {
+      "relative_image": "Sperm 100x Raw Photos/Sperm 100x Raw Photos/Prssly KO Exemplary C.TIF",
+      "reason": "100x path-conflict and head-anchor audit example",
+      "magnification": "100x"
+    },
+    {
+      "relative_image": "Sperm 40x Raw Photos/Sperm 40x Raw Photos/B6 A.tif",
+      "reason": "40x image at 1600x1200 with baseline-accepted control candidates",
+      "magnification": "40x"
+    },
+    {
+      "relative_image": "Sperm 40x Raw Photos/Sperm 40x Raw Photos/Prssly C.tif",
+      "reason": "40x crossing beside a loop; inspected in the investigation",
+      "magnification": "40x"
+    },
+    {
+      "relative_image": "Sperm 40x Raw Photos/Sperm 40x Raw Photos/Teyorf1 D.tif",
+      "reason": "4800x3600 control image containing four baseline-accepted candidates",
+      "magnification": "40x"
+    }
+  ]
+}

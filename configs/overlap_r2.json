@@ -1,0 +1,13 @@
+{
+  "schema_version": "scp.r2.config.v1",
+  "stage": "R2",
+  "r1_manifest": "Algorithmic_Pixel_Mask_For_Tails/experiments/r1_manifest.json",
+  "expected_image_count": 24,
+  "k": 5,
+  "search_max_expansions": 20000,
+  "solver_max_expansions": 100000,
+  "fixture_seed": 0,
+  "null_cost": 1.5,
+  "partial_cost": 0.85,
+  "coverage_weight": 1.0
+}
