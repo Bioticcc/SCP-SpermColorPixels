@@ -32,3 +32,17 @@ review_bundles/
 # OS/editor noise
 .DS_Store
 Thumbs.db
+
+# Lab data must never be committed: this repository is public.
+Algorithmic_Pixel_Mask_For_Tails/Raw_Ward_Data/
+Algorithmic_Pixel_Mask_For_Tails/annotations/
+Algorithmic_Pixel_Mask_For_Tails/ColorMask-SpermCount-CellCount/
+*.tif
+*.tiff
+*.TIF
+*.TIFF
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.csv

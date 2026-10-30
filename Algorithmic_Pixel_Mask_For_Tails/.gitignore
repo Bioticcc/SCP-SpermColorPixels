@@ -1,6 +1,9 @@
-# Generated review outputs. Ward source TIFFs under Raw_Ward_Data are
-# intentionally trackable for the Phase 1 annotation workflow.
+# Generated review outputs.
 outputs/
+
+# Lab data is never tracked (the repository is public); see the root .gitignore.
+Raw_Ward_Data/
+annotations/
 
 # Ignore macOS archive sidecars inside the Ward source export.
 Raw_Ward_Data/**/__MACOSX/
